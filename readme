@@ -1,0 +1,14 @@
+git clone https://github.com/pruthajoshi/wordpress.git
+
+git remote add origin https://github.com/pruthajoshi/wordpress.git
+
+git config --global user.email "pruthajoshi.lujayninfoways@gmail.com"
+git config --global user.name "pruthajoshi"
+
+git remote set-url origin https://github.com/pruthajoshi/wordpress.git
+
+git add .
+
+git commit -m "tests"
+
+git push origin master
